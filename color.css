@@ -1,0 +1,28 @@
+body {
+    background-color: beige;
+}
+h1{
+    font-style: oblique;
+    text-align: center;
+    color: brown;
+}
+/*add :firs-child pseudo-class to unordered list*/
+ul li:first-child{
+    font-weight: bolder;
+    color: palevioletred;
+}
+/*add :nth-child pseudo-class to unordered list to 2nd line*/
+ul li:nth-child(2){
+    color: rgb(129, 39, 69);
+    font-weight: 1000;
+}
+/*add :nth-child pseudo-class to unordered list to 3nd line*/
+ul li:nth-child(3){
+    color: rgb(251, 6, 88);
+    font-weight: 1300;
+}
+/*add :nth-child pseudo-class to unordered list to 4nd line*/
+ul li:nth-child(4){
+    color: rgb(246, 92, 144);
+    font-weight: 1500;
+}
