@@ -26,3 +26,34 @@ ul li:nth-child(4){
     color: rgb(246, 92, 144);
     font-weight: 1500;
 }
+
+/* Add + Adjacent Sibling Selector to p*/
+h3 + p{
+    font-style: oblique;
+    color: rgb(105, 141, 212);
+}
+/* Add > Child Selector to h3*/
+article > h3{
+    font-style: oblique;
+    color: rgb(6, 100, 103);
+}
+/* Add ~ General Sibling Selector to p*/
+h4 ~ p {
+    font-style: oblique;
+    font-family:cursive;
+    font-weight: 900;
+    color: coral;
+}
+h4{
+    font-family: cursive;
+    color: rgb(199, 59, 8);
+}
+/* Add > Descendant Selector to ol ul*/
+ol ul {
+    font-family: cursive;
+    font-weight: 900;
+    
+}
+h2{
+    color: rgb(242, 58, 21);
+}
