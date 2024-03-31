@@ -57,3 +57,24 @@ ol ul {
 h2{
     color: rgb(242, 58, 21);
 }
+/* Add .flex container*/
+.flex-container{
+    display:flex;
+    flex-wrap: nowrap;
+    background-color: rgb(29, 17, 23);
+    
+}
+/* Add .felx container to div*/
+.flex-container > div {
+    background-color: rgba(246, 239, 241, 0.996);
+    width: 400px;
+    margin: 11px;
+    padding: 10px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 30px;
+    color:white;
+}
+:hover > div{
+    background-color: palevioletred;
+}
